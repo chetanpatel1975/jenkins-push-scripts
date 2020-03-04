@@ -21,7 +21,7 @@ destination_branch=`echo "$2" | awk -F "/" '{printf "%s", $2}'`
 source ${scriptpath}/config/laravel/${destination_project}.conf
 echo "Pushing to $destination_branch .. "
 
-# Declare functions
+# Declare functions.
 alert_notification() {
     echo "Push script failure : $2" | mail -s "Push script Failure" $1
 }
