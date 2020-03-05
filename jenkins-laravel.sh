@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#check command input
+#check command input 
 if [ "$#" -ne 2 ];
 then
         echo "JENKINS LARAVEL PUSH"
